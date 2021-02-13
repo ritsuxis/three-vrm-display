@@ -1,0 +1,22 @@
+{  
+  "name": "three-vrm-display",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@pixiv/three-vrm": "^0.6.2",
+    "@types/three": "^0.125.1",
+    "three": "^0.125.2",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.17",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}
